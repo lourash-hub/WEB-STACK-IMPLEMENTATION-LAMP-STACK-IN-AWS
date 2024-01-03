@@ -36,3 +36,22 @@ Secure Your Private Key: Store your .pem file in a secure location.
 Connecting to EC2 Instance (Windows)
 Download Putty from Putty Download Link.
 Use the following command to connect:
+
+```bash
+ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>
+
+```
+Step 1 - Installing Apache and Updating the Firewall
+Install Apache:
+
+```bash
+sudo apt update
+sudo apt install apache2
+
+```
+Verify Apache Installation:
+```bash
+sudo systemctl status apache2
+```
+
+![update-ubuntu](./Images/Apache_service.png)
