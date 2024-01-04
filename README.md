@@ -365,7 +365,7 @@ This is a sample personalised index.php
     </header>
 
     <div class="container">
-        <h2>Welcome to my personal project page!</h2>
+        <h2>Welcome to my LouRash's Space!</h2>
         <p>This is a LAMP stack deployment example.</p>
         <img src="path_to_your_image.jpg" alt="Personal Image" style="width:200px;height:auto;">
         <p>Stay tuned for more updates.</p>
@@ -377,3 +377,6 @@ This is a sample personalised index.php
 Replace path_to_your_image.jpg with the actual path to your image.
 You can add additional pages like about.php and contact.php and link them in the navigation menu.
 You can modify the styling by changing the CSS in the <style> tag.
+
+![Page1](./Images/personalised_1.png)
+
