@@ -285,3 +285,95 @@ $ sudo rm /var/www/projectlamp/index.php
 ```
 
 ####    Congratulations, You have finished your very first REAL LIFE PROJECT by deploying a LAMP stack website in AWS Cloud!
+
+
+This is a sample personalised index.php
+
+```bash
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Personal Website</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to my personal project page!</h2>
+        <p>This is a LAMP stack deployment example.</p>
+        <img src="path_to_your_image.jpg" alt="Personal Image" style="width:200px;height:auto;">
+        <p>Stay tuned for more updates.</p>
+    </div>
+</body>
+</html>
+```
+
+Replace path_to_your_image.jpg with the actual path to your image.
+You can add additional pages like about.php and contact.php and link them in the navigation menu.
+You can modify the styling by changing the CSS in the <style> tag.
